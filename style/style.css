@@ -71,3 +71,41 @@ body {
     display: flex;
     margin: 30px 230px;
 }
+
+.lastPoster {
+    height: 415px;
+    display: flex;
+    margin: 30px 230px;
+}
+
+footer {
+    box-shadow: 0px 0px 3px rgba(156, 156, 156, 0.87);
+}
+
+.footer-firstSection {
+    display: flex;
+    padding-left: 230px;
+    padding-right: 200px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.columns h3 {
+    margin-bottom: 0;
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.columns ul {
+    align-items: center;
+    list-style-type: none;
+}
+.columns li {
+    padding: 20px 0px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.58);
+}
